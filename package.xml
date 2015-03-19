@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+  <name>motor_drive</name>
+  <version>0.0.0</version>
+  <description>The motor_drive package takes input from a joystick using the 'joy' package and publishes the required scaled voltage values for the two motors of a differential drive bot. The required information in published on the topic 'motordriver'.</description>
+
+  <maintainer email="saxena.vaibhav96@gmail.com">vaibhav</maintainer>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>joy</build_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>joy</run_depend>
+
+  </export>
+</package>
